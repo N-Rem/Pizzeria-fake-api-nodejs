@@ -19,18 +19,21 @@
       "id": 1,
       "username": "Nicolas",
       "password": "Nicolas123",
+      "shopping_cart": [],
       "rol": "super-admin"
     },
     {
       "id": 2,
       "username": "Anabella",
       "password": "Anabella123",
+      "shopping_cart": [],
       "rol": "super-admin"
     },
     {
       "id": 3,
       "username": "Delfina",
       "password": "Delfina123",
+      "shopping_cart": [],
       "rol": "super-admin"
     },
     {
@@ -43,14 +46,12 @@
       "id": 6,
       "username": "john_admin",
       "password": "johnAdmin123",
-      "shopping_cart": [],
       "rol": "admin"
     },
     {
       "id": 7,
       "username": "jane_admin",
       "password": "janeAdmin123",
-      "shopping_cart": [],
       "rol": "admin"
     },
     {
