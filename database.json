@@ -109,7 +109,7 @@
       "name": "Napolitana",
       "description": "Delicious pizza with tomato sauce, mozzarella, and anchovies.",
       "price": 10,
-      "stock": 0,
+      "stock": 98,
       "imageUrl": "https://i.postimg.cc/mkkxk6h5/ivan-torres-MQUqbmsz-GGM-unsplash.jpg"
     },
     {
@@ -117,7 +117,7 @@
       "name": "Margherita",
       "description": "Classic pizza with tomato sauce, mozzarella, and fresh basil.",
       "price": 8,
-      "stock": 0,
+      "stock": 99,
       "imageUrl": "https://i.postimg.cc/mkkxk6h5/ivan-torres-MQUqbmsz-GGM-unsplash.jpg"
     },
     {
@@ -125,7 +125,7 @@
       "name": "Pepperoni",
       "description": "Pizza with tomato sauce, mozzarella, and spicy pepperoni.",
       "price": 12,
-      "stock": 0,
+      "stock": 98,
       "imageUrl": "https://i.postimg.cc/mkkxk6h5/ivan-torres-MQUqbmsz-GGM-unsplash.jpg"
     },
     {
@@ -133,7 +133,7 @@
       "name": "Hawaiian",
       "description": "Tropical pizza with tomato sauce, mozzarella, ham, and pineapple.",
       "price": 11,
-      "stock": 0,
+      "stock": 99,
       "imageUrl": "https://i.postimg.cc/mkkxk6h5/ivan-torres-MQUqbmsz-GGM-unsplash.jpg"
     },
     {
@@ -141,7 +141,7 @@
       "name": "Four Cheese",
       "description": "Pizza with mozzarella, cheddar, parmesan, and gorgonzola.",
       "price": 13,
-      "stock": 0,
+      "stock": 100,
       "imageUrl": "https://i.postimg.cc/mkkxk6h5/ivan-torres-MQUqbmsz-GGM-unsplash.jpg"
     },
     {
@@ -149,7 +149,7 @@
       "name": "Vegetarian",
       "description": "Pizza with tomato sauce, mozzarella, mushrooms, peppers, and onions.",
       "price": 9,
-      "stock": 0,
+      "stock": 100,
       "imageUrl": "https://i.postimg.cc/mkkxk6h5/ivan-torres-MQUqbmsz-GGM-unsplash.jpg"
     },
     {
@@ -157,7 +157,7 @@
       "name": "Barbecue",
       "description": "Pizza with BBQ sauce, mozzarella, shredded chicken, onions, and corn.",
       "price": 14,
-      "stock": 0,
+      "stock": 100,
       "imageUrl": "https://i.postimg.cc/mkkxk6h5/ivan-torres-MQUqbmsz-GGM-unsplash.jpg"
     },
     {
@@ -165,7 +165,7 @@
       "name": "Seafood",
       "description": "Pizza with tomato sauce, mozzarella, mussels, clams, and shrimp.",
       "price": 15,
-      "stock": 0,
+      "stock": 100,
       "imageUrl": "https://i.postimg.cc/mkkxk6h5/ivan-torres-MQUqbmsz-GGM-unsplash.jpg"
     },
     {
@@ -173,7 +173,7 @@
       "name": "Spicy Sausage",
       "description": "Pizza with tomato sauce, mozzarella, and spicy Italian sausage.",
       "price": 13,
-      "stock": 0,
+      "stock": 100,
       "imageUrl": "https://i.postimg.cc/mkkxk6h5/ivan-torres-MQUqbmsz-GGM-unsplash.jpg"
     },
     {
@@ -181,7 +181,7 @@
       "name": "Truffle Mushroom",
       "description": "Pizza with truffle cream, mozzarella, and assorted mushrooms.",
       "price": 16,
-      "stock": 0,
+      "stock": 100,
       "imageUrl": "https://i.postimg.cc/mkkxk6h5/ivan-torres-MQUqbmsz-GGM-unsplash.jpg"
     },
     {
@@ -189,7 +189,7 @@
       "name": "Buffalo Chicken",
       "description": "Pizza with buffalo sauce, mozzarella, and spicy chicken strips.",
       "price": 14,
-      "stock": 0,
+      "stock": 100,
       "imageUrl": "https://i.postimg.cc/mkkxk6h5/ivan-torres-MQUqbmsz-GGM-unsplash.jpg"
     },
     {
@@ -197,7 +197,7 @@
       "name": "Pesto Delight",
       "description": "Pizza with pesto sauce, mozzarella, cherry tomatoes, and arugula.",
       "price": 12,
-      "stock": 0,
+      "stock": 100,
       "imageUrl": "https://i.postimg.cc/mkkxk6h5/ivan-torres-MQUqbmsz-GGM-unsplash.jpg"
     },
     {
@@ -205,7 +205,7 @@
       "name": "Mexican",
       "description": "Pizza with tomato sauce, mozzarella, jalapenos, and ground beef.",
       "price": 14,
-      "stock": 0,
+      "stock": 100,
       "imageUrl": "https://i.postimg.cc/mkkxk6h5/ivan-torres-MQUqbmsz-GGM-unsplash.jpg"
     },
     {
@@ -213,7 +213,7 @@
       "name": "Prosciutto",
       "description": "Pizza with tomato sauce, mozzarella, and thinly sliced prosciutto.",
       "price": 15,
-      "stock": 0,
+      "stock": 100,
       "imageUrl": "https://i.postimg.cc/mkkxk6h5/ivan-torres-MQUqbmsz-GGM-unsplash.jpg"
     },
     {
@@ -221,7 +221,7 @@
       "name": "Greek",
       "description": "Pizza with tomato sauce, mozzarella, feta cheese, and black olives.",
       "price": 13,
-      "stock": 0,
+      "stock": 100,
       "imageUrl": "https://i.postimg.cc/mkkxk6h5/ivan-torres-MQUqbmsz-GGM-unsplash.jpg"
     },
     {
@@ -229,7 +229,7 @@
       "name": "Capricciosa",
       "description": "Pizza with tomato sauce, mozzarella, ham, mushrooms, and artichokes.",
       "price": 14,
-      "stock": 0,
+      "stock": 100,
       "imageUrl": "https://i.postimg.cc/mkkxk6h5/ivan-torres-MQUqbmsz-GGM-unsplash.jpg"
     }
   ]

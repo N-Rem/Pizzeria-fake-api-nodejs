@@ -18,6 +18,7 @@ import {
   testHandler,
   uploadFileHandler,
   uploadFilesHandler,
+  purchaseHandler
 } from './src/rest.js';
 import socketHandler from './src/socket-io.js';
 
@@ -48,7 +49,7 @@ if (CONFIG.proxyServer) {
       ws: true,
       logger: console,
       onProxyRes: function (proxyRes, req, res) {
-        cors()(req, res, () => {});
+        cors()(req, res, () => { });
       },
     })
   );
@@ -75,6 +76,10 @@ app.use((req, res, next) => {
   }
 
   next();
+});
+
+app.post('/purchase', (req, res) => {
+  purchaseHandler(db, req, res)
 });
 
 // Test web socket request

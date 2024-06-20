@@ -25,6 +25,34 @@ const handleUploadFile = async (req, file) => {
   }
 };
 
+export const purchaseHandler = (db, req, res) => {
+  const cart = req.body;
+
+  try {
+    // Aquí iteramos sobre los elementos del carrito y actualizamos el stock en la base de datos
+    cart.forEach((item) => {
+      const product = db.data.products.find((p) => p.id === item.id);
+
+      if (product) {
+        if (product.stock >= item.units) {
+          product.stock -= item.units;
+        } else {
+          throw new Error(`Insufficient stock for product ${item.name}`);
+        }
+      } else {
+        throw new Error(`Product ${item.name} not found`);
+      }
+    });
+
+    // Guardar los cambios en la base de datos
+    db.write();
+
+    res.status(200).jsonp({ message: 'Purchase successful'});
+  } catch (error) {
+    res.status(400).jsonp({ message: error.message });
+  }
+}
+
 export const testHandler = (db, req, res) => {
   res.jsonp('Hello world!');
 };
@@ -37,14 +65,14 @@ export const loginHandler = (db, req, res) => {
   );
 
   if (user && user.password === pwd) {
-    const accessToken = generateAccessToken(user);
-    const refreshToken = generateRefreshToken(user);
-    const { password, ...userWithoutPassword } = user;
+    //const accessToken = generateAccessToken(user);
+    //const refreshToken = generateRefreshToken(user);
+    //const { password, ...userWithoutPassword } = user;
 
     res.jsonp({
-      ...userWithoutPassword,
-      accessToken,
-      refreshToken,
+      id: user.id,
+      username: user.username,
+      rol: user.rol
     });
   } else {
     res.status(400).jsonp({ message: 'Username or password is incorrect!' });
